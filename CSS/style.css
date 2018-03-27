@@ -2,6 +2,6 @@ body > ul > li {
   float: left;
   display: block;
   padding: 15px;
-  background-color: red;
+  background-color: maroon;
   color: white;
 }
