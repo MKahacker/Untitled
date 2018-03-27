@@ -1,10 +1,15 @@
-body > ul {
+body > nav{
+  width: 100%;
+  background-color: maroon;
+}
+
+body > nav > ul {
   width: 60%;
   margin-left:25%;
   /*margin-right:10%;*/
 }
 
-body > ul > li {
+body > nav > ul > li {
   float: left;
   display: block;
   padding: 15px;
