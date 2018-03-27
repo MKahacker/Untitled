@@ -17,4 +17,7 @@ body > nav > ul > li {
   color: white;
 }
 
-
+#js_container{ 
+  width: 100%;
+  height: 300px;
+}
