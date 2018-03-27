@@ -1,3 +1,9 @@
+body > ul {
+  width: 60%;
+  margin-left:25%;
+  /*margin-right:10%;*/
+}
+
 body > ul > li {
   float: left;
   display: block;
@@ -5,3 +11,5 @@ body > ul > li {
   background-color: maroon;
   color: white;
 }
+
+
