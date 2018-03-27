@@ -1,3 +1,4 @@
 body > ul > li {
   float: left;
+  display: block;
 }
