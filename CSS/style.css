@@ -17,12 +17,6 @@ body > nav > ul > li {
   background-color: maroon;
   color: white;
 }
-
-#js_container{ 
-  width: 100%;
-  height: 300px;
-}
-
 .button {
     background-color: #000000;
     border: none;
@@ -50,7 +44,7 @@ body > nav > ul > li {
   position: relative;
   text-align: center;
   width: 100%;
-  height: 300px;
+  height: 200px;
 }     
 #myCanvas {
   position: absolute;
@@ -59,5 +53,5 @@ body > nav > ul > li {
 #clear {
   position:absolute;
   left:50%;
-  top:30%
+  top:70%
 }

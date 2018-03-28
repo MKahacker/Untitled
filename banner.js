@@ -60,7 +60,7 @@ function init()
   context= myCanvas.getContext('2d');
   canvas = document.getElementById("myCanvas");
   canvas.width = document.body.clientWidth;
-  canvas.height = 300;
+  canvas.height = 200;
   context.fillStyle = "#000000";
   context.fillRect(0, 0, myCanvas.width, myCanvas.height);
 }
