@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"> <!-- used for symbols such as pound signs, percent, etc-->
-  <title> Welcome to Untitled </title>
+  <title> Mak n Jay's Website Emporium </title>
   
   <link rel="stylesheet" href="CSS/reset.css" type="text/css"/>
   <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
 </head>
-<body>
-  <div id="js_container">
-    
+<body onLoad="init();">
+  <div class="container">
+  <canvas id="myCanvas">
+  </canvas>
+  <button id="clear" class="button" onclick="document.getElementById('myCanvas').getContext('2d').fillRect(0,0,600,250)">Clear</button>
   </div>
   <nav>
     <ul>
@@ -21,5 +23,6 @@
       <li> Place Holder </li> 
     </ul>
   </nav>
+  <script src="banner.js"></script>
 </body>
 </html>
