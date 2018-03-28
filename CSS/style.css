@@ -17,7 +17,7 @@ body > nav > ul > li {
   background-color: maroon;
   color: white;
 }
-.button {
+.button#clear {
     background-color: #000000;
     border: none;
     color: white;
