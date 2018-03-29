@@ -92,7 +92,8 @@ function place()
       }
       balls[i].r = rad;
       balls[i].d = direction;
-      
+      document.getElementById("clear").style.borderColor = 'hsl(' + balls[i].c++ + ', 100%, 50%)';
+      document.getElementById("clear").style.color = 'hsl(' + balls[i].c++ + ', 100%, 50%)';
       context.fillStyle='hsl(' + balls[i].c++ + ', 100%, 50%)';
       context.beginPath();
       context.arc(balls[i].x,balls[i].y,rad,0,Math.PI*2,true);
