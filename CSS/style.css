@@ -1,30 +1,54 @@
 body > nav{
   width: 100%;
-  height: 50px;
+  height: 40px;
   background-color: maroon;
-}
-
-body > nav > ul {
-  width: 60%;
-  margin-left:20%;
-  /*margin-right:10%;*/
 }
 
 body > nav > ul > li {
   float: left;
-  display: block;
-  padding: 15px;
+  padding: 10px;
   background-color: maroon;
   color: white;
+  font-size: 15px;
+  display:inline-block;
 }
-.button {
+/* --------------------------------------- Tag Section -----------------------------------------------------------*/
+
+/*-------------------------------------------- Nav Bar -----------------------------------------------------------*/
+
+
+body > nav > ul{
+	text-align: center;
+  list-style-type:none;
+}
+
+/*body > nav ul li a{
+  background-color: #BD2031;
+  text-decoration:none;
+  padding: 10px 25px;
+  display: block;
+  color: #fff;
+  font-size: 25px;
+}*/
+
+/*body > nav ul li a:hover{
+  background-color: #000;
+}
+
+body > nav ul li a.active{
+  background-color: #000; 
+  color: #f0b401;
+}
+*/
+
+/*----------------------------------------- Original -------------------------------------------------*/
+.button#clear {
     background-color: #000000;
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -33,11 +57,11 @@ body > nav > ul > li {
 	outline:0;
 }
 .button:hover {
-    background-color: #FF9900; /* Green */
+    background-color: #000000; /* Green */
     color: white;
 }
 .button:active {
-  background-color: #b66500;
+  background-color: #00000000;
   transform: translateY(4px);
 }
 .container{
@@ -52,6 +76,6 @@ body > nav > ul > li {
 }
 #clear {
   position:absolute;
-  left:50%;
-  top:70%
+  top: 50%;
+  left: 47.5%;
 }
