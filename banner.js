@@ -64,10 +64,7 @@ function init()
 
 function place()
 {
-      // console.log(balls[0].x);
     context.fillStyle = "#000000";
-    // context.fillRect(0, 0, 1300, 600);
-  
     context.fillRect(0, 0, myCanvas.width, myCanvas.height);
   
     for(var i = 0; i < balls.length; i++){
