@@ -69,6 +69,11 @@ li a:hover {
   transform: translateY(4px);
 }
 
+.Body_wrap{
+  text-align: left;
+  margin: 10px; 
+}
+
 #clear {
   position:absolute;
   top: 2%;
