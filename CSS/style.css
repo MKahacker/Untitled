@@ -33,6 +33,10 @@ li a:hover {
 	color: maroon;
 }
 
+p {
+  margin-top: 10px; 
+}
+
 .active{
 	color: black;
 	font-weight: bold;
@@ -71,7 +75,7 @@ li a:hover {
 
 .Body_wrap{
   text-align: left;
-  margin: 10px; 
+  margin: 25px 50px; 
 }
 
 #clear {
