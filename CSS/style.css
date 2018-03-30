@@ -70,14 +70,14 @@ li a:hover {
 
 .button#clear:hover {
     background-color: #ff4000; /* Green */
-    /* border: 4px solid #ff4000;  */
-	color: white;
+    border: 2px solid black; 
+	color: black;
 }
 
 .button#clear:active {
   background-color: #ff4000;
   transform: translateY(4px);
-  color: white;
+  /* color: white; */
 }
 
 #clear {
