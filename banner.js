@@ -71,14 +71,12 @@ function place()
       rad = balls[i].r;
       direction = balls[i].d;
       if(rad < 50 && direction == 1){
-        // balls[i].c = 244;
         rad += drad;
       }
       else{      
         direction = 0;
       }
       if(rad > 0 && direction == 0){
-        // balls[i].c = 360;
         rad -= drad;
       }
       else{
