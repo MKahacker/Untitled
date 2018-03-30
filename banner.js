@@ -44,9 +44,6 @@ myCanvas.onmousedown = function(event){
   });
   cancelAnimationFrame(ID);
   ID = requestAnimationFrame(place);
-  // console.log(mos.toString;
-  // console.log(mos.x);
-  // balls.push({xVal: x, yVal: y, rVal: 20});
 }
 
 myCanvas.onmouseup = function(){
