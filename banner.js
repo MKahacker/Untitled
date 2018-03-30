@@ -61,6 +61,7 @@ function init()
   canvas = document.getElementById("myCanvas");
   canvas.width = document.body.clientWidth;
   canvas.height = 200;
+  canvas.paddingBottom = 0;
   context.fillStyle = "#000000";
   context.fillRect(0, 0, myCanvas.width, myCanvas.height);
 }
