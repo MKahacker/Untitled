@@ -60,7 +60,7 @@ li a:hover {
     padding: 15px 32px;
     text-decoration: none;
     display: inline;
-    font-size: 18px;
+    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border: 2px solid #ff4000; 
@@ -69,15 +69,13 @@ li a:hover {
 }
 
 .button#clear:hover {
-    background-color: #ff4000; /* Green */
-    border: 2px solid black; 
-	color: black;
+    background-color: #000000; /* Green */
+    color: white;
 }
 
 .button#clear:active {
   background-color: #ff4000;
   transform: translateY(4px);
-  /* color: white; */
 }
 
 #clear {
