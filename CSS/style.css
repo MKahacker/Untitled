@@ -40,6 +40,13 @@ p {
   margin-top: 10px; 
 }
 
+h1{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  style-type: underline;
+}
+
 .active{
     background-color: black;
 	color: #ff4000;
@@ -84,7 +91,13 @@ p {
 
 .Body_wrap{
   text-align: left;
-  margin: 25px 50px; 
+  margin: 35px 50px; 
+}
+
+.cool_line{
+  border-bottom: solid 2px #ff4000;
+  width: 90px;
+  margin: 0px auto 30px auto;
 }
 
 #clear {
