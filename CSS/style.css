@@ -41,6 +41,11 @@ li a:hover {
 	/*border-bottom: 3px solid #ff4000;*/
 }
 
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
 p {
   margin-top: 10px; 
   font-family: 'Montserrat', sans-serif;
@@ -115,6 +120,6 @@ h1{
 #logo {
   position:absolute;
   pointer-events: none;
-  top: 20%;
-  left: 45%;
+  top: 15%;
+  left: 42.5%;
 }
