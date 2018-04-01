@@ -45,6 +45,9 @@ myCanvas.onmousedown = function(event){
     d: 1,
     c: 0
   });
+  if(balls.length > 1000){
+  	balls.shift();
+  }
   cancelAnimationFrame(ID);
   ID = requestAnimationFrame(place);
 }
