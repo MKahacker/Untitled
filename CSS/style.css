@@ -126,8 +126,9 @@ h1{
 #logo {
 	position:absolute;
 	pointer-events: none;
-	top: 15%;
-	left: 42.5%;
+	padding: 125px;
+	/* top: 10%; */
+	/* left: 10%; */
 }
 
 /* contact page css */
