@@ -65,7 +65,7 @@ h1{
 	/* border-bottom: 5px solid red; */
 }
 
-.about{
+.contact{
 	float: right;
 }
 
@@ -106,9 +106,14 @@ h1{
 }
 
 .cool_line{
-  border-bottom: solid 2px #ff4000;
+  border-bottom: solid 3px #ff4000;
   width: 90px;
   margin: 0px auto 30px auto;
+}
+
+
+#contact{
+	float: right;
 }
 
 #clear {
