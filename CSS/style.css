@@ -1,3 +1,4 @@
+/* Menu css */
 body > nav{
   padding: 0;
 	position: sticky;
@@ -46,6 +47,22 @@ li a:hover {
     ul.topnav li {float: none;}
 }
 
+.active{
+    background-color: black;
+	color: #ff4000;
+	/*border-bottom: 3px solid #ff4000;*/
+	/* border-bottom: 5px solid red; */
+}
+
+.contact{
+	float: right;
+}
+
+#contact{
+	float: right;
+}
+
+/* page content css */
 p {
   margin-top: 10px; 
   font-family: 'Montserrat', sans-serif;
@@ -58,18 +75,18 @@ h1{
   style-type: underline;
 }
 
-.active{
-    background-color: black;
-	color: #ff4000;
-	/*border-bottom: 3px solid #ff4000;*/
-	/* border-bottom: 5px solid red; */
+.Body_wrap{
+  text-align: left;
+  margin: 35px 50px; 
 }
 
-.contact{
-	float: right;
+.cool_line{
+  border-bottom: solid 3px #ff4000;
+  width: 90px;
+  margin: 0px auto 30px auto;
 }
 
-/*----------------------------------------- Original -------------------------------------------------*/
+/* canvas css */
 #myCanvas{
 	display: block;
 	padding: none;
@@ -100,22 +117,6 @@ h1{
   transform: translateY(4px);
 }
 
-.Body_wrap{
-  text-align: left;
-  margin: 35px 50px; 
-}
-
-.cool_line{
-  border-bottom: solid 3px #ff4000;
-  width: 90px;
-  margin: 0px auto 30px auto;
-}
-
-
-#contact{
-	float: right;
-}
-
 #clear {
   position:absolute;
   top: 2%;
@@ -123,8 +124,94 @@ h1{
 }
 
 #logo {
-  position:absolute;
-  pointer-events: none;
-  top: 15%;
-  left: 42.5%;
+	position:absolute;
+	pointer-events: none;
+	top: 15%;
+	left: 42.5%;
 }
+
+/* contact page css */
+
+.logo-contact {
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+}
+
+#contactLogo {
+	pointer-events: none;
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-contact {
+	margin-top: 2.5%;
+    border-radius: 15px;
+    background-color: #333;
+    padding: 20px;
+	border: 3px solid;
+	border-color: #ff4000;
+}
+
+label {
+	color: white;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    /* float: right; */
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+	margin-top: 10px;
+}
+
+.col-1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-2 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .col-1, .col-2, input[type=submit] {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
