@@ -119,14 +119,13 @@ li a:hover {
   z-index: -1; 
   position: fixed;
   top: 0px;  
+  width:100%;
 }
 
 .slide_show_content{
-  font-size: 65px; 
-  font-weight: 700;
   position: absolute;
-  top: 750px;
-  left: 260px;
+  top: 850px;
+  left: 32%;
   font-family: 'Do Hyeon', sans-serif;
   color: black;
 }
@@ -180,4 +179,12 @@ li a:hover {
   pointer-events: none;
   top: 15%;
   left: 42.5%;
+}
+#content_1{
+  font-size: 65px; 
+  font-weight: 700;  
+}
+
+#content_2{
+  top: 950px;
 }
