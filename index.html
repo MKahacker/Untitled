@@ -4,10 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8"> <!-- used for symbols such as pound signs, percent, etc-->
   <title> Mak n Jay's Website Emporium </title>
-  
+  <link rel="icon" href="images/logo.png">
   <link rel="stylesheet" href="CSS/reset.css" type="text/css"/>
   <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet"> 
 </head>
 <body onLoad="init();">
   <img id="logo" src="Images/LargeLogo.png" alt="Logo">
@@ -17,14 +18,22 @@
   <nav>
     <ul>
       <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="2">Place Holder</a></li>
-      <li><a href="3">Place Holder</a></li>
-      <li><a href="4">Place Holder</a></li>
-      <li><a href="5">Place Holder</a></li>
-      <li><a href="6">Place Holder</a></li> 
+      <li><a href="2">Services</a></li>
+      <li><a href="3">Portfolio</a></li>
+      <li><a href="4">About US</a></li>
+     <!-- <li><a href="5">Place Holder</a></li>
+      <li><a href="6">Place Holder</a></li> -->
       <li><a id="contact" href="contact.html">Contact Us</a></li> 
     </ul>
   </nav>
+  <div class="slide_show_wrap">
+    <img class="slide_show_img" src="Images/Slideshow5.jpg" alt="slidshow">
+    <div class="slide_show_content">
+      <p id="content_1"><!--<img class="icon1" src="Images/icon1.png"/>--> Design & Innovate </p>
+      <!--<p class="slide_show_content" id="content_2"><img class="icon1" src="Images/icon1.png"/> Innovate </p>-->
+      <p id="content_2">Utilize innovative technology and strategic marketing concepts to create an experience that consumers will remember.</p>
+    </div>
+  </div>
 
 <div class="Body_wrap">
 <h1> About Us </h1>
@@ -122,7 +131,7 @@
   </div>
   
   <footer>
-    <p class="copyright_text"> copyright 2018 </p>
+    <p class="copyright_text"><span class="text_border"></span>&copy; 2018. M J. Dev </p>
   </footer>
   <script src="banner.js"></script>
 </body>
