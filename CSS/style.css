@@ -58,6 +58,34 @@ footer{
   background-color: #333;
 }
 
+label {
+	color: white;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    /* float: right; */
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border: 3px solid;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right;
+    border: 2px solid #4CAF50; 
+	margin-top: 10px;
+	color: white;
+	outline: 0;
+}
+
 
 
 /* -----------------------------------Special effects and media -----------------------------------*/
@@ -70,7 +98,36 @@ li a:hover {
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+     .col-1, .col-2, input[type=submit] {
+        width: 100%;
+    }
 }
+
+input[type=submit]:hover {
+    color: white;
+}
+
+input[type=submit]:active {
+  transform: translateY(4px);
+}
+
+.button#clear:hover {
+    background-color: #000000; /* Green */
+    color: white;
+}
+
+.button#clear:active {
+  background-color: #ff4000;
+  transform: translateY(4px);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 /* ----------------------------------- Classes -----------------------------------------*/
 
@@ -125,11 +182,37 @@ li a:hover {
 .slide_show_content{
   position: absolute;
   top: 850px;
-  left: 32%;
-  font-family: 'Do Hyeon', sans-serif;
+  width: 100%;  
+  
   color: black;
+  text-align: center;
 }
 
+.logo-contact{
+  margin-top:2.5%;
+  margin-bottom: 5%;
+}
+
+.container-contact {
+	margin-top: 2.5%;
+    border-radius: 15px;
+    background-color: #333;
+    padding: 20px;
+	border: 3px solid;
+	border-color: #ff4000;
+}
+
+.col-1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-2 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
 
 
 
@@ -154,18 +237,17 @@ li a:hover {
 	outline:0;
 }
 
-.button#clear:hover {
-    background-color: #000000; /* Green */
-    color: white;
-}
-
-.button#clear:active {
-  background-color: #ff4000;
-  transform: translateY(4px);
-}
 
 #contact{
 	float: right;
+}
+
+#contactLogo {
+	pointer-events: none;
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin: auto;
 }
 
 #clear {
@@ -182,9 +264,10 @@ li a:hover {
 }
 #content_1{
   font-size: 65px; 
-  font-weight: 700;  
+  font-weight: 700; 
+  font-family: 'Do Hyeon', sans-serif;  
 }
 
 #content_2{
-  top: 950px;
+  font-size: 20px;
 }
