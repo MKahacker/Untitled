@@ -13,16 +13,16 @@ body > nav{
 }
 
 body > nav ul{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    margin-left: 50px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 50px;
 	/*border-top: 3px solid #ff4000;*/
 	/* border-bottom: 3px solid #ff4000; */
 }
 
 body > nav ul li {
-    /* border-right: 1px solid #ff5a00; */
+  /* border-right: 1px solid #ff5a00; */
 }
 
 body nav ul li a{
@@ -34,7 +34,7 @@ body nav ul li a{
 	background-color: #333;
 	color: white;
 	font-size: 20px;
-    text-decoration: none;
+  text-decoration: none;
 	/* border: 1px solid white; */
 }
 
@@ -60,27 +60,27 @@ footer{
 
 label {
 	color: white;
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
 input[type=text]{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    /* float: right; */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  /* float: right; */
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    padding: 12px 20px;
-    border: 3px solid;
-    border-radius: 12px;
-    cursor: pointer;
-    float: right;
-    border: 2px solid #4CAF50; 
+  background-color: #4CAF50;
+  padding: 12px 20px;
+  border: 3px solid;
+  border-radius: 12px;
+  cursor: pointer;
+  float: right;
+  border: 2px solid #4CAF50; 
 	margin-top: 10px;
 	color: white;
 	outline: 0;
@@ -90,21 +90,21 @@ input[type=submit] {
 
 /* -----------------------------------Special effects and media -----------------------------------*/
 li a:hover {
-    background-color: black;
+  background-color: black;
 	color: #ff4000;
 	/*border-bottom: 3px solid #ff4000;*/
 }
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-     .col-1, .col-2, input[type=submit] {
-        width: 100%;
-    }
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  .col-1, .col-2, input[type=submit] {
+    width: 100%;
+  }
 }
 
 input[type=submit]:hover {
-    color: white;
+  color: white;
 }
 
 input[type=submit]:active {
@@ -112,8 +112,8 @@ input[type=submit]:active {
 }
 
 .button#clear:hover {
-    background-color: #000000; /* Green */
-    color: white;
+  background-color: #000000; /* Green */
+  color: white;
 }
 
 .button#clear:active {
@@ -122,9 +122,9 @@ input[type=submit]:active {
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
@@ -132,7 +132,7 @@ input[type=submit]:active {
 /* ----------------------------------- Classes -----------------------------------------*/
 
 .active{
-    background-color: black;
+  background-color: black;
 	color: #ff4000;
 	/*border-bottom: 3px solid #ff4000;*/
 	/* border-bottom: 5px solid red; */
@@ -168,7 +168,7 @@ input[type=submit]:active {
 
 .slide_show_wrap{ 
   width:100%;
-  height: 500px;
+  height: 600px;
 }
 
 .slide_show_img{
@@ -182,10 +182,11 @@ input[type=submit]:active {
 .slide_show_content{
   position: absolute;
   top: 850px;
-  width: 100%;  
-  
+  width: 100%;
+  /*width: 60%;
+  margin-left: 50px;*/
+  text-align: center;  
   color: black;
-  text-align: center;
 }
 
 .logo-contact{
@@ -195,23 +196,23 @@ input[type=submit]:active {
 
 .container-contact {
 	margin-top: 2.5%;
-    border-radius: 15px;
-    background-color: #333;
-    padding: 20px;
+  border-radius: 15px;
+  background-color: #333;
+  padding: 20px;
 	border: 3px solid;
 	border-color: #ff4000;
 }
 
 .col-1 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
 }
 
 .col-2 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
 
 
@@ -223,17 +224,17 @@ input[type=submit]:active {
 }
 
 .button#clear {
-    background-color: #000000;
-    border: none;
-    color: #ff4000;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: 2px solid #ff4000; 
-    border-radius: 12px;
+  background-color: #000000;
+  border: none;
+  color: #ff4000;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid #ff4000; 
+  border-radius: 12px;
 	outline:0;
 }
 
@@ -263,11 +264,11 @@ input[type=submit]:active {
   left: 42.5%;
 }
 #content_1{
-  font-size: 65px; 
+  font-size: 85px; 
   font-weight: 700; 
   font-family: 'Do Hyeon', sans-serif;  
 }
 
 #content_2{
-  font-size: 20px;
+  font-size: 25px;
 }
