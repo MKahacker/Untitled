@@ -1,39 +1,4 @@
 /* ------------------------------------------------Tags ------------------------------------------*/
-
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-/*------------------------------------------------Testing-----------------------------------------*/
 body > nav{
   padding: 0;
 	position: sticky;
@@ -64,6 +29,17 @@ body nav ul li a{
 	font-size: 20px;
   text-decoration: none;
 	/* border: 1px solid white; */
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
 }
 
 p {
@@ -154,7 +130,11 @@ input[type=submit]:active {
     clear: both;
 }
 
+.dropdown-content a:hover {background-color: #f1f1f1}
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* ----------------------------------- Classes -----------------------------------------*/
 
@@ -209,8 +189,7 @@ input[type=submit]:active {
 .slide_show_content{
   position: absolute;
   top: 850px;
-  width: 100%;  
-  
+  width: 100%;
   color: black;
   text-align: center;
 }
@@ -241,7 +220,68 @@ input[type=submit]:active {
     margin-top: 6px;
 }
 
+.service{ 
+	background-color: gray;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
 
+.service-header{ grid-area: header; }
+.service-description{
+	grid-area: description; 
+	border-bottom: 1px solid #ff4000;
+}
+.service-column1{
+	grid-area: column1;
+	border-right: 1px solid #ff4000;
+}
+.service-column2{ grid-area: column2; }
+.service-footer{
+	grid-area: footer;
+	border-top: 1px solid #ff4000;
+}
+
+.service_ul{
+	list-style-type: circle;
+  list-style-position: inside;	
+}
+
+.service-content{
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'description description description description description description'
+    'column1 column1 column1 column2 column2 column2'
+    'footer footer footer footer footer footer';
+  padding: 1px;
+	margin-bottom: 5px;
+}
+
+.service-content > div {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
 
 /*----------------------------------------- Ids -------------------------------------------------*/
 #myCanvas{
@@ -298,4 +338,11 @@ input[type=submit]:active {
 
 #content_2{
   font-size: 20px;
+}
+
+#service-section{
+	width: 100%;
+	float: left;
+	margin-top: 10%;
+	position: relative;
 }
