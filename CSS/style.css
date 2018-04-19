@@ -228,7 +228,10 @@ input[type=submit]:active {
 	text-align: center;
 }
 
-.service-header{ grid-area: header; }
+.service-header{
+	grid-area: header;
+	background-color: rgba(255, 255, 255, 0.8);
+}
 .service-description{
 	grid-area: description; 
 	border-bottom: 1px solid #ff4000;
@@ -249,6 +252,8 @@ input[type=submit]:active {
 }
 
 .service-content{
+	width: 100%;
+	float: left;
   display: grid;
   grid-template-areas:
     'header header header header header header'
@@ -260,10 +265,25 @@ input[type=submit]:active {
 }
 
 .service-content > div {
-  background-color: #e0e0e0;
   text-align: center;
   padding: 40px 0;
   font-size: 30px;
+}
+
+.slide_show_img_services{
+  opacity: 0.2;
+  z-index: -1; 
+  position: fixed;
+  top: 0px;
+  width:100%;
+}
+
+.slide_show_content_services{
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  color: black;
+  text-align: center;
 }
 
 .dropdown-content {
