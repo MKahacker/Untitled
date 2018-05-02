@@ -220,17 +220,25 @@ input[type=submit]:active {
   font-weight:500;
   border-radius: 0px;
   float: left;
-  margin: 5% 10%;
+  margin: 3% 0.5%;
   text-align: center;
   /*border: 2px solid #ff4000;*/
-  box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;
+  /*box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;*/
+}
+
+.cards:nth-child(2n){ 
+  /*margin-left: 10%;*/
 }
 
 .top-card{
-  background-color: #ff4000;
-  color: #fff;
+  /*background-color: #ff4000;*/
+  color: #ff4000;
   padding-top: 10%;
   padding-bottom: 3%;  
+}
+
+.top-card > i{
+  color: #000; 
 }
 
 .bottom-card{
