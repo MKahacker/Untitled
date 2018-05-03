@@ -61,8 +61,8 @@ h2{
 }
 
 section{
-  margin-top: 20px;
-  margin-bottom:20px;
+  margin-top: 30px;
+  margin-bottom:300px;
 }
 
 footer{
@@ -247,15 +247,35 @@ input[type=submit]:active {
 
 .cards{
   width: 24%;
-  height: 380px;
-  background-color: #ff4000;
-  color: #fff;
+  height: 300px;
+  background-color: #fff;
+  color: #000;
   font-weight:500;
-  border-radius: 10px;
+  border-radius: 0px;
   float: left;
-  margin: 1.5% 0.2%;
-  padding: 2%;
+  margin: 3% 0.5%;
   text-align: center;
+  /*border: 2px solid #ff4000;*/
+  /*box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;*/
+}
+
+.cards:nth-child(2n){ 
+  /*margin-left: 10%;*/
+}
+
+.top-card{
+  /*background-color: #ff4000;*/
+  color: #ff4000;
+  padding-top: 10%;
+  padding-bottom: 3%;  
+}
+
+.top-card > i{
+  color: #000; 
+}
+
+.bottom-card{
+  padding: 3%;
 }
 
 .col-1 {
