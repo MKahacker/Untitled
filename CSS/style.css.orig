@@ -10,6 +10,16 @@ body > nav{
 }
 
 body > nav ul{
+<<<<<<< HEAD
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 50px;
+}
+
+body > nav ul li {
+	float: left;
+=======
   list-style-type: none;
   overflow: hidden;
   background-color: #333;
@@ -19,7 +29,8 @@ body > nav ul{
 }
 
 body > nav ul li {
-	float: left;
+  /* border-right: 1px solid #ff5a00; */
+>>>>>>> newmakk
 }
 
 body nav ul li a{
@@ -211,6 +222,7 @@ input[type=submit]:active {
 }
 
 .slide_show_content{
+<<<<<<< HEAD
   position: relative;
   top: 150px;
   width: 100%;
@@ -227,6 +239,13 @@ input[type=submit]:active {
   position: relative;
   top: 150px;
   width: 100%;
+=======
+  position: absolute;
+  top: 850px;
+  width: 100%;
+  /*width: 60%;
+  margin-left: 50px;*/
+>>>>>>> newmakk
   color: black;
   text-align: center;
 }
@@ -387,7 +406,11 @@ input[type=submit]:active {
 }
 
 #content_1{
+<<<<<<< HEAD
   font-size: 70px; 
+=======
+  font-size: 85px; 
+>>>>>>> newmakk
   font-weight: 700; 
   font-family: orbitron_black;
 }

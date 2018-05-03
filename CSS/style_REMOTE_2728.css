@@ -1,8 +1,11 @@
 /* ------------------------------------------------Tags ------------------------------------------*/
+
 body > nav{
   padding: 0;
 	position: sticky;
 	top: -3px;
+	overflow: hidden;
+	display: block;
   background-color: #333;
   border-top: 3px solid #ff4000;
   border-bottom: 3px solid #ff4000;
@@ -19,11 +22,13 @@ body > nav ul{
 }
 
 body > nav ul li {
-	float: left;
+  /* border-right: 1px solid #ff5a00; */
 }
 
 body nav ul li a{
+	float: left;
 	border-bottom: 3px solid transparent;
+	display: block;
 	padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
 	background-color: #333;
@@ -33,16 +38,6 @@ body nav ul li a{
 	/* border: 1px solid white; */
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-li.dropdown {
-    display: inline-block;
-}
 
 p {
   margin-top: 10px; 
@@ -51,7 +46,7 @@ p {
 
 h1{
   text-align: center;
-  font-family: orbitron_black;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 40px;
   style-type: underline;
 }
@@ -141,11 +136,7 @@ input[type=submit]:active {
     clear: both;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 /* ----------------------------------- Classes -----------------------------------------*/
 
@@ -189,11 +180,6 @@ input[type=submit]:active {
   height: 600px;
 }
 
-.slide_show_wrap_services{
-  width:100%;
-  height: 500px;
-}
-
 .slide_show_img{
   opacity: 0.2;
   z-index: -1; 
@@ -202,31 +188,12 @@ input[type=submit]:active {
   width:100%;
 }
 
-.slide_show_img_services{
-  opacity: 0.75;
-  z-index: -1; 
-  position: fixed;
-  top: 0px;
-  width:100%;
-}
-
 .slide_show_content{
-  position: relative;
-  top: 150px;
+  position: absolute;
+  top: 850px;
   width: 100%;
-  color: black;
-  text-align: center;
-}
-
-.slide_show_content_services{
-  /* position: relative; */
-  /* top: 100px; */
-  /* width: 100%; */
-  /* color: black; */
-  /* text-align: center; */
-  position: relative;
-  top: 150px;
-  width: 100%;
+  /*width: 60%;
+  margin-left: 50px;*/
   color: black;
   text-align: center;
 }
@@ -270,72 +237,7 @@ input[type=submit]:active {
     margin-top: 6px;
 }
 
-.service{ 
-	background-color: gray;
-	padding-bottom: 15px;
-	padding-top: 10px;
-	margin-bottom: 5px;
-	text-align: center;
-}
 
-.service-header{
-	grid-area: header;
-	background-color: rgba(255, 255, 255, 0.8);
-}
-.service-description{
-	grid-area: description; 
-	border-bottom: 1px solid #ff4000;
-}
-.service-column1{
-	grid-area: column1;
-	border-right: 1px solid #ff4000;
-}
-.service-column2{ grid-area: column2; }
-.service-footer{
-	grid-area: footer;
-	border-top: 1px solid #ff4000;
-}
-
-.service_ul{
-	list-style-type: circle;
-  list-style-position: inside;	
-}
-
-.service-content{
-	width: 100%;
-	float: left;
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'description description description description description description'
-    'column1 column1 column1 column2 column2 column2'
-    'footer footer footer footer footer footer';
-  padding: 1px;
-	margin-bottom: 5px;
-}
-
-.service-content > div {
-  text-align: center;
-  padding: 40px 0;
-  font-size: 30px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
 
 
 /*----------------------------------------- Ids -------------------------------------------------*/
@@ -362,7 +264,6 @@ input[type=submit]:active {
 
 #contact{
 	float: right;
-	margin-right: 50px;
 }
 
 #contactLogo {
@@ -385,43 +286,12 @@ input[type=submit]:active {
   top: 15%;
   left: 42.5%;
 }
-
 #content_1{
-  font-size: 70px; 
+  font-size: 85px; 
   font-weight: 700; 
-  font-family: orbitron_black;
+  font-family: 'Do Hyeon', sans-serif;  
 }
 
 #content_2{
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* #content_1_services{ */
-	/* color: white; */
-  /* font-size: 65px;  */
-  /* font-weight: 700;  */
-  /* font-family: 'Do Hyeon', sans-serif;   */
-/* } */
-
-/* #content_2_services{ */
-  /* font-size: 20px; */
-/* } */
-
-#service_section{
-	width: 100%;
-	float: left;
-	padding-top: 100px;
-	position: relative;
-	background-color: white;
-}
-
-@font-face {
-    font-family: orbitron_black;
-    src: url(orbitron-black-webfont.woff);
-}
-
-@font-face {
-    font-family: orbitron_light;
-    src: url(orbitron-light-webfont.woff);
 }

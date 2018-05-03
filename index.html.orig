@@ -36,8 +36,14 @@
   <div class="slide_show_wrap">
     <img class="slide_show_img" src="Images/Slideshow5.jpg" alt="slideshow">
     <div class="slide_show_content">
+<<<<<<< HEAD
+      <p id="content_1">Design & Innovate</p>
+      <p id="content_2">Utilize innovative technology and strategic marketing concepts to create an experience that consumers will remember.</p>
+=======
       <p id="content_1">Innovative Design    <i class="fa fa-cogs" style="font-size:60px; margin-left: 20px;"></i></p>
+      <!--<p class="slide_show_content" id="content_2"><img class="icon1" src="Images/icon1.png"/> Innovate </p>-->
      <p id="content_2">Utilize innovative technology and strategic marketing to create experiences that consumers will remember.</p>
+>>>>>>> newmakk
     </div>
   </div>
 
