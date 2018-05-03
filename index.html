@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8"> <!-- used for symbols such as pound signs, percent, etc-->
-  <title> Mak n Jay's Website Emporium </title>
-  <link rel="icon" href="images/logo.png">
-  <link rel="stylesheet" href="CSS/reset.css" type="text/css"/>
-  <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/animate.js"></script>
+	<meta charset="utf-8"> <!-- used for symbols such as pound signs, percent, etc-->
+	<title> Mak n Jay's Website Emporium </title>
+	<link rel="icon" href="images/logo.png">
+	<link rel="stylesheet" href="CSS/reset.css" type="text/css"/>
+	<link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body onLoad="init();">
   <img id="logo" src="Images/LargeLogo.png" alt="Logo">
@@ -37,7 +36,14 @@
   </nav>
   <div class="slide_show_wrap">
     <img class="slide_show_img" src="Images/Slideshow5.jpg" alt="slideshow">
-    <div class="slide_show_content">
+    <div class="slide_show_content scrollme animateme"
+      data-when="enter"
+	  data-easing="easein"
+      data-from=".7"
+      data-to="0"
+      data-opacity="0"
+      data-translatey="-150"
+    >
       <p id="content_1">Let's make your website unforgetable! <i class="fa fa-cogs" style="font-size:60px; margin-left: 20px;"></i></p>
      <p id="content_2">Using innovative technology and strategic marketing we create experiences that consumers will never forget.</p>
     </div>
@@ -45,44 +51,72 @@
 
 <div class="Body_wrap">
 <section>
+	<div class="header">
   <h1> Core Services </h1>
   <div class="cool_line"></div>
-  <div class="cards">
-    <div class="top-card">
-      <i class="fa fa-code" style="font-size:60px; "></i>
-      <h2> Web Design </h2>
-    </div>
-    <div class="bottom-card">
-      <p>Interactive, responsive web design, User Friendly webpages.</p>
-    </div>
   </div>
-  <div class="cards">
-    <div class="top-card">
-      <i class="fa fa-bullhorn" style="font-size:60px; "></i>
-      <h2> Social Media Presence </h2>
-    </div>
-    <div class="bottom-card">
-      <p>Facebook, Instagram, Twitter, and Snapchat all these platforms and more!</p>
-    </div>
-  </div>
-  <div class="cards">
-    <div class="top-card">
-      <i class="fa fa-desktop" style="font-size:60px; "></i>
-      <h2> Research</h2>
-    </div>
-    <div class="bottom-card">
-      <p> Software solutions, new tech trends, and user expectations.</p>
-    </div>
-  </div>
-  <div class="cards">
-    <div class="top-card">
-      <i class="fa fa-magic" style="font-size:60px; "></i>
-      <h2> Graphic Design </h2>
-    </div>
-    <div class="bottom-card">
-      <p> Flyers, logo, business card, posters, we can design anything that you can imagine.</p>
-    </div>
-  </div>
+  
+		  <div class="cards scrollme animateme"
+		  data-when="enter"
+		  data-from=".7"
+		  data-to="0"
+		  data-translatex="-300"
+		  data-scale="1.5"
+		  data-opacity=".5">
+			<div class="top-card">
+			  <i class="fa fa-code" style="font-size:60px; "></i>
+			  <h2> Web Design </h2>
+			</div>
+			<div class="bottom-card">
+			  <p>Interactive, responsive web design, User Friendly webpages.</p>
+			</div>
+		  </div>
+		  <div class="cards scrollme animateme"
+		  data-when="enter"
+		  data-from=".7"
+		  data-to="0"
+		  data-translatex="-100"
+		  data-scale="1.5"
+		  data-opacity=".5">
+			<div class="top-card">
+			  <i class="fa fa-bullhorn" style="font-size:60px; "></i>
+			  <h2> Social Media Presence </h2>
+			</div>
+			<div class="bottom-card">
+			  <p>Facebook, Instagram, Twitter, and Snapchat all these platforms and more!</p>
+			</div>
+		  </div>
+		  <div class="cards scrollme animateme"
+		  data-when="enter"
+		  data-from=".7"
+		  data-to="0"
+		  data-translatex="100"
+		  data-scale="1.5"
+		  data-opacity=".5">
+			<div class="top-card">
+			  <i class="fa fa-desktop" style="font-size:60px; "></i>
+			  <h2> Research</h2>
+			</div>
+			<div class="bottom-card">
+			  <p> Software solutions, new tech trends, and user expectations.</p>
+			</div>
+		  </div>
+		  <div class="cards scrollme animateme"
+		  data-when="enter"
+		  data-from=".7"
+		  data-to="0"
+		  data-translatex="300"
+		  data-scale="1.5"
+		  data-opacity=".5">
+			<div class="top-card">
+			  <i class="fa fa-magic" style="font-size:60px; "></i>
+			  <h2> Graphic Design </h2>
+			</div>
+			<div class="bottom-card">
+			  <p> Flyers, logo, business card, posters, we can design anything that you can imagine.</p>
+			</div>
+		  </div>
+		  
 </section>
 <div style="clear:both;"></div>
 <section>
@@ -102,6 +136,8 @@
   <footer>
     <p class="copyright_text"><span class="text_border"></span>&copy; 2018. M J. Dev </p>
   </footer>
-  <script src="js/banner.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/jquery.scrollme.js"></script>
+	<script src="js/banner.js"></script>
 </body>
 </html>
