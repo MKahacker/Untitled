@@ -405,6 +405,9 @@ input[type=submit]:active {
   pointer-events: none;
   top: 15%;
   left: 42.5%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 #content_1{
