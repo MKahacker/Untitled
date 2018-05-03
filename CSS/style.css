@@ -49,7 +49,7 @@ p {
 
 h1{
   text-align: center;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: orbitron_black;
   font-size: 40px;
   style-type: underline;
 }
@@ -178,6 +178,11 @@ input[type=submit]:active {
   height: 500px;
 }
 
+.slide_show_wrap_services{
+  width:100%;
+  height: 500px;
+}
+
 .slide_show_img{
   opacity: 0.2;
   z-index: -1; 
@@ -186,9 +191,30 @@ input[type=submit]:active {
   width:100%;
 }
 
+.slide_show_img_services{
+  opacity: 0.75;
+  z-index: -1; 
+  position: fixed;
+  top: 0px;
+  width:100%;
+}
+
 .slide_show_content{
-  position: absolute;
-  top: 850px;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.slide_show_content_services{
+  /* position: relative; */
+  /* top: 100px; */
+  /* width: 100%; */
+  /* color: black; */
+  /* text-align: center; */
+  position: relative;
+  top: 150px;
   width: 100%;
   color: black;
   text-align: center;
@@ -270,21 +296,6 @@ input[type=submit]:active {
   font-size: 30px;
 }
 
-.slide_show_img_services{
-  z-index: -1; 
-  position: fixed;
-  top: 0px;
-  width:100%;
-}
-
-.slide_show_content_services{
-  position: absolute;
-  top: 250px;
-  width: 100%;
-  color: black;
-  text-align: center;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -351,30 +362,41 @@ input[type=submit]:active {
 }
 
 #content_1{
-  font-size: 65px; 
+  font-size: 70px; 
   font-weight: 700; 
-  font-family: 'Do Hyeon', sans-serif;  
+  font-family: orbitron_black;
 }
 
 #content_2{
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#content_1_services{
-	color: white;
-  font-size: 65px; 
-  font-weight: 700; 
-  font-family: 'Do Hyeon', sans-serif;  
-}
+/* #content_1_services{ */
+	/* color: white; */
+  /* font-size: 65px;  */
+  /* font-weight: 700;  */
+  /* font-family: 'Do Hyeon', sans-serif;   */
+/* } */
 
-#content_2_services{
-  font-size: 20px;
-}
+/* #content_2_services{ */
+  /* font-size: 20px; */
+/* } */
 
-#service_section {
+#service_section{
 	width: 100%;
 	float: left;
-	margin-top: 10%;
+	padding-top: 100px;
 	position: relative;
 	background-color: white;
+}
+
+@font-face {
+    font-family: orbitron_black;
+    src: url(orbitron-black-webfont.woff);
+}
+
+@font-face {
+    font-family: orbitron_light;
+    src: url(orbitron-light-webfont.woff);
 }
