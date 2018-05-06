@@ -69,7 +69,7 @@ footer{
   border-top: 2px black solid;
   width: 100%;
   height: 60px;
-  background-color: #333;
+  background-color: #181717;
 }
 
 label {
@@ -162,8 +162,7 @@ input[type=submit]:active {
 
 .Body_wrap{
   text-align: left;
-  padding: 35px 50px;
-  background-color: white;  
+  padding: 35px 50px; 
 }
 
 .cool_line{
@@ -186,7 +185,7 @@ input[type=submit]:active {
 
 .slide_show_wrap{ 
   width:100%;
-  height: 600px;
+  height: 550px;
 }
 
 .slide_show_wrap_services{
@@ -212,7 +211,7 @@ input[type=submit]:active {
 
 .slide_show_content{
   position: relative;
-  top: 150px;
+  top: 200px;
   width: 100%;
   color: black;
   text-align: center;
@@ -263,19 +262,19 @@ input[type=submit]:active {
   /*margin-left: 10%;*/
 }
 
-.top-card{
+.top_card{
   /*background-color: #ff4000;*/
   color: #ff4000;
   padding-top: 10%;
   padding-bottom: 3%;  
 }
 
-.top-card > i{
+.top_card > i{
   color: #000; 
 }
 
-.bottom-card{
-  padding: 3%;
+.bottom_card{
+  padding: 0;
 }
 
 .col-1 {
@@ -407,7 +406,7 @@ input[type=submit]:active {
 }
 
 #content_1{
-  font-size: 70px; 
+  font-size: 50px; 
   font-weight: 700; 
   font-family: orbitron_black;
 }
