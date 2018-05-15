@@ -274,7 +274,10 @@ input[type=submit]:active {
 }
 
 .bottom_card{
-  padding: 0;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 25px;
+  height: 135px;
 }
 
 .col-1 {

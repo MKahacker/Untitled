@@ -24,9 +24,14 @@ section.our_story{
   z-index: 1;
 }
 
+section.our_story > div.cards > div.bottom_card{
+  border: 2px solid #ff4000;
+}
+
 .background_img{
   position: absolute;
   top: 1700px;
+  width: 100%;
   z-index: -1;
 }
 
@@ -50,7 +55,8 @@ section.our_story{
 section.contact_footer > h3{
   margin: 0px;
   margin-bottom: 20px;
-  text-decoration: underline;
+  font-size: 27px;
+  text-align: center;
 }
 
 div.contact_card > a{
