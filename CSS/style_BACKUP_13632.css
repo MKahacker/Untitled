@@ -190,7 +190,11 @@ input[type=submit]:active {
 
 .slide_show_wrap{ 
   width:100%;
+<<<<<<< HEAD
+  height: 700px;
+=======
   height: 550px;
+>>>>>>> newmakk
 }
 
 .slide_show_wrap_services{
@@ -216,7 +220,11 @@ input[type=submit]:active {
 
 .slide_show_content{
   position: relative;
+<<<<<<< HEAD
+  top: 250px;
+=======
   top: 200px;
+>>>>>>> newmakk
   width: 100%;
   color: black;
   text-align: center;

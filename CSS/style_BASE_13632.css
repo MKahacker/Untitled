@@ -1,12 +1,12 @@
 /* ------------------------------------------------Tags ------------------------------------------*/
 body > nav{
-	padding: 0;
+  padding: 0;
 	position: sticky;
 	top: -3px;
-	background-color: #333;
-	border-top: 2px solid #ff4000;
-	border-bottom: 3px solid #ff4000;
-	z-index: 1;
+  background-color: #333;
+  border-top: 3px solid #ff4000;
+  border-bottom: 3px solid #ff4000;
+  z-index: 1;
 }
 
 body > nav ul{
@@ -69,7 +69,7 @@ footer{
   border-top: 2px black solid;
   width: 100%;
   height: 60px;
-  background-color: #181717;
+  background-color: #333;
 }
 
 label {
@@ -149,7 +149,6 @@ input[type=submit]:active {
 
 /* ----------------------------------- Classes -----------------------------------------*/
 
-
 .active{
   background-color: black;
 	color: #ff4000;
@@ -161,18 +160,15 @@ input[type=submit]:active {
 	float: right;
 }
 
-.header{
-	padding: 50px;
-}
-
 .Body_wrap{
   text-align: left;
-  padding: 35px 50px; 
+  padding: 35px 50px;
+  background-color: white;  
 }
 
 .cool_line{
   border-bottom: solid 3px #ff4000;
-  width: 150px;
+  width: 90px;
   margin: 0px auto 30px auto;
 }
 
@@ -190,7 +186,7 @@ input[type=submit]:active {
 
 .slide_show_wrap{ 
   width:100%;
-  height: 550px;
+  height: 600px;
 }
 
 .slide_show_wrap_services{
@@ -216,7 +212,7 @@ input[type=submit]:active {
 
 .slide_show_content{
   position: relative;
-  top: 200px;
+  top: 150px;
   width: 100%;
   color: black;
   text-align: center;
@@ -259,7 +255,6 @@ input[type=submit]:active {
   float: left;
   margin: 3% 0.5%;
   text-align: center;
-  box-shadow: 0px 5px 10px #888888;
   /*border: 2px solid #ff4000;*/
   /*box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;*/
 }
@@ -268,22 +263,19 @@ input[type=submit]:active {
   /*margin-left: 10%;*/
 }
 
-.top_card{
+.top-card{
   /*background-color: #ff4000;*/
   color: #ff4000;
   padding-top: 10%;
   padding-bottom: 3%;  
 }
 
-.top_card > i{
+.top-card > i{
   color: #000; 
 }
 
-.bottom_card{
-  padding: 8px;
-  background-color: #fff;
-  border-radius: 25px;
-  height: 135px;
+.bottom-card{
+  padding: 3%;
 }
 
 .col-1 {
@@ -412,13 +404,10 @@ input[type=submit]:active {
   pointer-events: none;
   top: 15%;
   left: 42.5%;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 
 #content_1{
-  font-size: 50px; 
+  font-size: 70px; 
   font-weight: 700; 
   font-family: orbitron_black;
 }

@@ -1,12 +1,12 @@
 /* ------------------------------------------------Tags ------------------------------------------*/
 body > nav{
-	padding: 0;
+  padding: 0;
 	position: sticky;
 	top: -3px;
-	background-color: #333;
-	border-top: 2px solid #ff4000;
-	border-bottom: 3px solid #ff4000;
-	z-index: 1;
+  background-color: #333;
+  border-top: 3px solid #ff4000;
+  border-bottom: 3px solid #ff4000;
+  z-index: 1;
 }
 
 body > nav ul{
@@ -149,7 +149,6 @@ input[type=submit]:active {
 
 /* ----------------------------------- Classes -----------------------------------------*/
 
-
 .active{
   background-color: black;
 	color: #ff4000;
@@ -161,10 +160,6 @@ input[type=submit]:active {
 	float: right;
 }
 
-.header{
-	padding: 50px;
-}
-
 .Body_wrap{
   text-align: left;
   padding: 35px 50px; 
@@ -172,7 +167,7 @@ input[type=submit]:active {
 
 .cool_line{
   border-bottom: solid 3px #ff4000;
-  width: 150px;
+  width: 90px;
   margin: 0px auto 30px auto;
 }
 
@@ -259,7 +254,6 @@ input[type=submit]:active {
   float: left;
   margin: 3% 0.5%;
   text-align: center;
-  box-shadow: 0px 5px 10px #888888;
   /*border: 2px solid #ff4000;*/
   /*box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;*/
 }
@@ -412,9 +406,6 @@ input[type=submit]:active {
   pointer-events: none;
   top: 15%;
   left: 42.5%;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 
 #content_1{

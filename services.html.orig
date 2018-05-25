@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8"> <!-- used for symbols such as pound signs, percent, etc-->
+  <title> Mak n Jay's Website Emporium </title>
+  
+  <link rel="stylesheet" href="CSS/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+				<a class="active" href="services.html" class="dropbtn">Services</a>
+				<div class="dropdown-content">
+					<a href="#">Web Design</a>
+					<a href="#">Social Media Presence</a>
+					<a href="#">Software Solution Research</a>
+					<a href="#">Logo and Brand Design</a>
+				</div>
+			</li>
+      <li><a href="3">Portfolio</a></li>
+      <li><a href="4">About US</a></li>
+      <li id="contact" ><a href="contact.html">Contact Us</a></li> 
+    </ul>
+  </nav>
+  <div class="slide_show_wrap">
+    <img class="slide_show_img" src="Images/services_head.jpg" alt="slideshow">
+    <div class="slide_show_content">
+      <p id="content_1">Design & Innovate</p>
+      <p id="content_2">Utilize innovative technology and strategic marketing concepts to create an experience that consumers will remember.</p>
+    </div>
+  </div>
+<div id="service_section">
+	<div class="service-content">
+		<div class="service-header"><h1>Web Design</h1></div>
+		<div class="service-description"><p id="content_2">We create custom websites focusing on making a memorable user experience. With experience on our side, we can promise to deliver a site to attract the attention your product deserves</p></div>
+		<div class="service-column1">
+			<ul class="service_ul">
+				<li>point</li>
+				<li>point</li>
+				<li>point</li>
+			</ul>
+		</div>
+		<div class="service-column2">
+			<ul class="service_ul">
+				<li>point</li>
+				<li>point</li>
+				<li>point</li>
+			</ul>
+		</div>
+		<div class="service-footer">see other products</div>
+	</div>
+	<div class="service-content">
+		<div class="service-header">Header</div>
+		<div class="service-description">description</div>
+		<div class="service-column1">column1</div>
+		<div class="service-column2">column2</div>
+		<div class="service-footer">footer</div>
+	</div>
+</section>
+</body>
+</html>
