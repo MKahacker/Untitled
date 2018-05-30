@@ -4,7 +4,7 @@ body > nav{
 	position: sticky;
 	top: -3px;
 	background-color: #333;
-	border-top: 2px solid #ff4000;
+	border-top: 3px solid #ff4000;
 	border-bottom: 3px solid #ff4000;
 	z-index: 1;
 }
@@ -259,7 +259,7 @@ input[type=submit]:active {
   float: left;
   margin: 3% 0.5%;
   text-align: center;
-  box-shadow: 0px 5px 10px #888888;
+  /*box-shadow: 0px 5px 10px #888888;*/
   /*border: 2px solid #ff4000;*/
   /*box-shadow: 0 4px 8px 0 #939393, 0 6px 20px 0 #939393;*/
 }

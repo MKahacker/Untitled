@@ -30,7 +30,7 @@ section.our_story > div.cards > div.bottom_card{
 
 .background_img{
   position: absolute;
-  top: 1700px;
+  top: 1920px;
   width: 100%;
   z-index: -1;
 }
@@ -38,7 +38,7 @@ section.our_story > div.cards > div.bottom_card{
 .background_provider{
   background-color: #fff;
   width: 100%;
-  height: 490px;
+  height: 610px;
   text-align: left;
   padding: 35px 50px; 
 }
@@ -80,5 +80,15 @@ div.contact_card > p:nth-child(2){
   font-style: italic;
 }
 
+section.technology-stack > ul {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+}
+
+section.technology-stack > ul > * {
+  display: inline-block;
+}
 
 
