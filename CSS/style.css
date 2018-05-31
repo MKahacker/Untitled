@@ -173,7 +173,7 @@ input[type=submit]:active {
 .cool_line{
   border-bottom: solid 3px #ff4000;
   width: 150px;
-  margin: 0px auto 30px auto;
+  margin: 0px auto 50px auto;
 }
 
 .copyright_text{
@@ -190,7 +190,7 @@ input[type=submit]:active {
 
 .slide_show_wrap{ 
   width:100%;
-  height: 550px;
+  height: 650px;
 }
 
 .slide_show_wrap_services{
